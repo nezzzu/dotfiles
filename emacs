@@ -1,3 +1,8 @@
+(add-to-list 'default-frame-alist (cons 'height 24))
+(add-to-list 'default-frame-alist (cons 'width  90))
+(setq initial-frame-alist '((left . 100) (top . 100)))
+(desktop-save-mode 1)
+
 ;; TRAMP
 (require 'tramp)
 (setq tramp-default-method "scp")
