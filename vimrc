@@ -7,6 +7,7 @@ set autoindent
 set hlsearch
 set cursorline
 hi Cursorline cterm=NONE ctermbg=LightGrey
+hi linenr cterm=NONE ctermbg=LightGrey
 nnoremap <C-Left> 	:tabprevious<CR>
 nnoremap <C-Right>	:tabnext<CR>
 nnoremap <C-u>		:u<CR>
