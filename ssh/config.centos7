@@ -1,0 +1,17 @@
+
+Host sage
+	HostName sage.zam.kfa-juelich.de
+	#IdentityFile ~/.ssh/id_rsa
+	IdentityFile /mnt/hgfs/linux/ssh/ganesan
+	IPQoS=throughput
+	ForwardAgent yes
+	User umanesan1
+
+Host sagegitlab
+    Hostname gitlab.version.fz-juelich.de
+	User git
+	#IdentityFile ~/.ssh/id_rsa
+	IdentityFile /mnt/hgfs/linux/ssh/ganesan
+	IPQoS=throughput
+	ForwardAgent yes
+
